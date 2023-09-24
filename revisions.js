@@ -106,21 +106,48 @@ else {
     // console.log('hobe na');
 }
 
-var numbers = [50, 60, 70, 80, 90, 100];
-console.log(numbers.length)
+// var numbers = [50, 60, 70, 80, 90, 100];
+// console.log(numbers.length)
 
-var element = numbers[5];
-console.log(element);
+// var element = numbers[5];
+// console.log(element);
 
-numbers[1] = 61;
-numbers[3] = 81;
-console.log(numbers);
+// numbers[1] = 61;
+// numbers[3] = 81;
+// console.log(numbers);
 
-var positionIndex = numbers.indexOf(90);
-console.log(positionIndex);
-numbers.push(110);
-console.log(numbers);
+// var positionIndex = numbers.indexOf(90);
+// console.log(positionIndex);
+// numbers.push(110);
+// console.log(numbers);
 
-numbers.pop();
-numbers.pop();
-console.log(numbers);
+// numbers.pop();
+// numbers.pop();
+// console.log(numbers);
+
+var tableItem = ['bottle', 'pen', 'book', 'sunglass'];
+var item3 = tableItem[3];
+tableItem[2] = 'notebook';
+// console.log(tableItem);
+
+var penIndex = tableItem.indexOf('pen');
+// console.log(penIndex);
+
+var roastGiven = 0;
+while (roastGiven < 7) {
+    // console.log('roast den');
+    roastGiven++;
+    // console.log(roastGiven);
+}
+
+// var number = 1;
+// while (number <= 10) {
+//     // console.log(number);
+//     // number++;
+// }
+
+var number = 1;
+while (number <= 20) {
+    console.log(number);
+    number++;
+}
